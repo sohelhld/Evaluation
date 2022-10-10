@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-101 C1</title>
+    <style>
+      /* Write all necessery css here only  */
+
+      .container{
+       
+        height: auto;
+        width: 90%;
+        background-color: blue;
+        margin: auto;
+      }
+      .top{
+        color: rgb(238, 240, 241);
+     text-align: center;
+
+      }
+      .mid{
+     
+        height: auto;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+
+
+      }
+      .mid-elements{
+      
+        height: auto;
+        width:15% ;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding-top: 5px;
+      }
+
+      .stocks{
+        
+        height: auto;
+        width: 90%;
+        background-color: rgb(212, 220, 226);
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .box{
+       
+        height: auto;
+        width: 30%;
+        text-align: center;
+        background-color: aliceblue;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+      }
+      .fund{
+     
+        height:auto;
+        width: 90%;
+        background-color: rgb(198, 192, 184);
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+
+
+      }
+      .Fund-box{
+       
+        height:auto;
+        width: 30%;
+        text-align: center;
+        background-color: aliceblue;
+
+      }
+      .options{
+      
+        height: auto;
+        width: 60%;
+        margin: auto ;
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+      .Obox{
+       
+        height: 100%;
+        width: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is the Navbar  -->
+    <div class="nav">
+       <img
+        class="logo"
+        src="https://cdn.indiawealth.in/cdn/images/fe/INDlogo_black_tm.png"
+        
+      />
+      <div class="options">
+        <!-- Different Options Should Go Here  -->
+       
+       <div class=" Obox"></div>
+       <h2>Explore</h2>
+    
+    
+    </div>
+    <div class="container">
+      <div class="top">
+        <!-- Create the Top Part Using This  -->
+        <h1>Get free Us Stockes Worth Upto 1000rs</h1>
+        <h3>on the way</h3>
+        <button>Clam</button>
+
+      </div>
+      </div>
+      <h2>Invest in top tech stocks</h2>
+      <div class="mid">
+        
+        <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+        <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+          <div class="mid-elements">
+            <!-- Create 8 Cards here  -->
+              <img src="https://cdn.indiawealth.in/public/images/usstocks/US-STOCKS-2X/AAPL@2x.jpg"
+              width="80%" />
+             <p>Apple</p>
+              <p>$789</p>
+          </div>
+
+      </div>
+
+      <div class="bottom">
+        <h1>Charges outside of INDmoney</h1>
+        <!-- Create the Bottom Part Here  -->
+        <h2>Us Stockes</h2>
+        <div class="stocks">
+            <div class="box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+            <div class="box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+            <div class="box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+            
+        </div>
+        <h2>Mutua Fund</h2>
+        <div class="fund">
+            <div class="Fund-box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+            <div class="Fund-box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+            <div class="Fund-box">
+                <img src="https://www.indmoney.com/stencil/images?url=/images/pricing-page/graph.png&w=3840&q=75" 
+                
+                />
+                <h3>Taxes</h3>
+                <p>For fun cut reduction of a duty officer am this ok</p>
+
+            </div>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
